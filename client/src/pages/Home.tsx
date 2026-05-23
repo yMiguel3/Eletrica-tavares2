@@ -17,7 +17,7 @@ export default function Home() {
           <div className="container">
             <div className="flex flex-col items-center justify-center">
               <img
-                src="/manus-storage/pasted_file_PvAalF_image_3d2024f9.png"
+                src="/manus-storage/pasted_file_PvAalF_image_d886345f.png"
                 alt="Eletrica Tavares Logo"
                 className="w-full max-w-xs h-auto object-contain"
               />

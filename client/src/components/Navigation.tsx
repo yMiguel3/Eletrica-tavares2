@@ -16,7 +16,7 @@ export default function Navigation() {
         <Link href="/" onClick={handleNavClick}>
           <div className="flex items-center gap-2 cursor-pointer">
             <img
-              src="/manus-storage/pasted_file_PvAalF_image_3d2024f9.png"
+              src="/manus-storage/pasted_file_PvAalF_image_d886345f.png"
               alt="Elétrica Tavares"
               className="h-10 w-auto"
             />
