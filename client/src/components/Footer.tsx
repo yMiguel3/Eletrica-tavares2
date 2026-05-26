@@ -1,9 +1,8 @@
 /**
  * Footer Component
  * Design: Minimalist Corporate - Navy blue footer with golden yellow accent
- * Features: Clean footer with contact info
+ * Features: Clean footer with contact info and copyright
  */
-
 export default function Footer() {
   const currentYear = new Date().getFullYear();
 
@@ -18,7 +17,7 @@ export default function Footer() {
               <li><a href="/" className="text-gray-300 hover:text-accent transition-colors">Home</a></li>
               <li><a href="/historia" className="text-gray-300 hover:text-accent transition-colors">História</a></li>
               <li><a href="/servicos" className="text-gray-300 hover:text-accent transition-colors">Serviços</a></li>
-              <li><a href="/dicas" className="text-gray-300 hover:text-accent transition-colors">Dicas</a></li>
+              <li><a href="/projetos" className="text-gray-300 hover:text-accent transition-colors">Projetos</a></li>
             </ul>
           </div>
 

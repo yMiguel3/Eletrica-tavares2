@@ -12,17 +12,14 @@ export default function Home() {
       <Navigation />
 
       <main className="flex-1">
-        {/* Logo Section */}
-        <section className="bg-white py-8 border-b-4 border-accent">
-          <div className="container">
-            <div className="flex flex-col items-center justify-center">
-              <img
-                src="/manus-storage/pasted_file_PvAalF_image_d886345f.png"
-                alt="Eletrica Tavares Logo"
-                className="w-full max-w-xs h-auto object-contain"
-              />
-            </div>
-          </div>
+        {/* Hero Section */}
+        <section
+          className="relative w-full h-48 bg-cover bg-center flex items-center justify-center"
+          style={{
+            backgroundImage: `url('https://d2xsxph8kpxj0f.cloudfront.net/310519663177966073/TeyyjsBzEmTDZEnhfuwCSb/hero-tavares-Xf4zbaa7eERkwMH8TE9yjS.webp')`,
+          }}
+        >
+          <div className="absolute inset-0 bg-black/30"></div>
         </section>
 
         {/* Featured Services Preview */}

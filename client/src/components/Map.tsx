@@ -82,7 +82,7 @@ import { cn } from "@/lib/utils";
 
 declare global {
   interface Window {
-    google?: any;
+    google?: typeof google;
   }
 }
 
@@ -93,24 +93,17 @@ const FORGE_BASE_URL =
 const MAPS_PROXY_URL = `${FORGE_BASE_URL}/v1/maps/proxy`;
 
 function loadMapScript() {
-  return new Promise((resolve, reject) => {
-    if (window.google) {
-      resolve(null);
-      return;
-    }
-
+  return new Promise(resolve => {
     const script = document.createElement("script");
     script.src = `${MAPS_PROXY_URL}/maps/api/js?key=${API_KEY}&v=weekly&libraries=marker,places,geocoding,geometry`;
     script.async = true;
     script.crossOrigin = "anonymous";
     script.onload = () => {
       resolve(null);
+      script.remove(); // Clean up immediately
     };
     script.onerror = () => {
-      console.error("Failed to load Google Maps script from:", script.src);
-      console.error("API_KEY:", API_KEY ? "set" : "not set");
-      console.error("FORGE_BASE_URL:", FORGE_BASE_URL);
-      reject(new Error("Failed to load Google Maps script"));
+      console.error("Failed to load Google Maps script");
     };
     document.head.appendChild(script);
   });
@@ -147,7 +140,7 @@ export function MapView({
       streetViewControl: true,
       mapId: "DEMO_MAP_ID",
     });
-    if (onMapReady && map.current) {
+    if (onMapReady) {
       onMapReady(map.current);
     }
   });
