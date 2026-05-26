@@ -10,14 +10,15 @@ export default function Servicos() {
   const services = [
     {
       name: "Instalações Residenciais",
-      description: "Serviços completos de instalação elétrica para residências, desde pontos de ar condicionado até iluminação e tomadas.",
+      description: "Serviços completos e personalizados de instalação elétrica para residências.",
       price: "A partir de R$ 150",
       features: [
         "Instalação de pontos para ar condicionado",
         "Instalação de luminárias e lustres",
         "Instalação de ventiladores",
         "Passagem de cabos e montagem de tomadas",
-        "Instalação de fitas de LED"
+        "Instalação de fitas de LED",
+        "Instalação de ponto elétrico para carregamento de carros elétricos"
       ],
     },
     {

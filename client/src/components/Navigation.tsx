@@ -16,7 +16,7 @@ export default function Navigation() {
         <Link href="/" onClick={handleNavClick}>
           <div className="flex items-center gap-2 cursor-pointer">
             <img
-              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663177966073/TeyyjsBzEmTDZEnhfuwCSb/logo-tavares_21e9d486.png"
+              src="/manus-storage/pasted_file_PvAalF_image_d886345f.png"
               alt="Elétrica Tavares"
               className="h-10 w-auto"
             />
@@ -40,9 +40,9 @@ export default function Navigation() {
               Serviços
             </span>
           </Link>
-          <Link href="/blog" onClick={handleNavClick}>
+          <Link href="/dicas" onClick={handleNavClick}>
             <span className="text-primary hover:text-accent transition-colors cursor-pointer font-medium">
-              Blog
+              Dicas
             </span>
           </Link>
           <Link href="/feedback" onClick={handleNavClick}>

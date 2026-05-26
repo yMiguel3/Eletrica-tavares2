@@ -19,21 +19,21 @@ export default function Feedback() {
 
   const testimonials = [
     {
-      name: "Anônimo",
+      name: "Pet Shop Animal Mania & Cia",
       company: "",
-      text: "Atendimento inigualável, e o serviço melhor ainda",
+      text: "Excelente atendimento, profissional qualificado e serviço muito bom.... Recomendo...",
       rating: 5,
     },
     {
-      name: "Anônimo",
+      name: "Vanda Cassão",
       company: "",
-      text: "Um dos melhores preços de mercado que eu vi fazendo meus orçamentos",
+      text: "Ótimo profissional, muito atencioso nota 10",
       rating: 5,
     },
     {
-      name: "Anônimo",
+      name: "Samantha Mariano",
       company: "",
-      text: "Acabei de conhecer a melhor elétrica de RP",
+      text: "Ótimo eletricista na região de Ribeirão Preto! O pessoal é atencioso e a qualidade do serviço é excelente!",
       rating: 5,
     },
   ];
@@ -102,6 +102,20 @@ export default function Feedback() {
                 </div>
               </div>
             ))}
+          </div>
+        </section>
+
+        {/* Google Reviews Button */}
+        <section className="bg-secondary py-8">
+          <div className="container max-w-2xl text-center">
+            <a
+              href="https://www.google.com/search?q=EL%C3%89TRICA+TAVARES+ELETRICISTA+RIBEIR%C3O+PRETO&hl=pt-BR"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-accent text-primary font-bold py-3 px-8 rounded-sm hover:bg-opacity-90 transition-all"
+            >
+              Ver todos os Feedbacks
+            </a>
           </div>
         </section>
 
