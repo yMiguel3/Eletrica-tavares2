@@ -16,7 +16,7 @@ export default function Home() {
         <section 
           className="w-full h-96 border-b-4 border-accent shadow-md bg-cover bg-center"
           style={{
-            backgroundImage: 'url(/manus-storage/pasted_file_JLEnUe_image_2269a854.png)',
+            backgroundImage: 'url(https://cdn.manus.computer/webdev/logo-hero_bfe93a03.png)',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat'
