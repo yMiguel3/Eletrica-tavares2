@@ -105,19 +105,6 @@ export default function Feedback() {
           </div>
         </section>
 
-        {/* Google Reviews Button */}
-        <section className="bg-secondary py-8">
-          <div className="container max-w-2xl text-center">
-            <a
-              href="https://www.google.com/search?q=EL%C3%89TRICA+TAVARES+ELETRICISTA+RIBEIR%C3O+PRETO&hl=pt-BR"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block bg-accent text-primary font-bold py-3 px-8 rounded-sm hover:bg-opacity-90 transition-all"
-            >
-              Ver todos os Feedbacks
-            </a>
-          </div>
-        </section>
 
         {/* Feedback Form */}
         <section className="bg-secondary py-20">
