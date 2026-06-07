@@ -19,21 +19,21 @@ export default function Feedback() {
 
   const testimonials = [
     {
-      name: "Anônimo",
+      name: "Pet Shop Animal Mania & Cia",
       company: "",
-      text: "Atendimento inigualável, e o serviço melhor ainda",
+      text: "Excelente atendimento, profissional qualificado e serviço muito bom.... Recomendo...",
       rating: 5,
     },
     {
-      name: "Anônimo",
+      name: "Vanda Cassão",
       company: "",
-      text: "Um dos melhores preços de mercado que eu vi fazendo meus orçamentos",
+      text: "Ótimo profissional, muito atencioso nota 10",
       rating: 5,
     },
     {
-      name: "Anônimo",
+      name: "Samantha Mariano",
       company: "",
-      text: "Acabei de conhecer a melhor elétrica de RP",
+      text: "Ótimo eletricista na região de Ribeirão Preto! O pessoal é atencioso e a qualidade do serviço é excelente!",
       rating: 5,
     },
   ];
@@ -104,6 +104,7 @@ export default function Feedback() {
             ))}
           </div>
         </section>
+
 
         {/* Feedback Form */}
         <section className="bg-secondary py-20">
