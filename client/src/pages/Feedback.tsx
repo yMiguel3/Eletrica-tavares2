@@ -103,6 +103,18 @@ export default function Feedback() {
               </div>
             ))}
           </div>
+
+          {/* Ver todos os feedbacks button */}
+          <div className="flex justify-center mt-12">
+            <a
+              href="https://www.google.com/maps/place/ELÉTRICA+TAVARES+ELETRICISTA+RIBEIRÃO+PRETO/@-21.2079969,-47.8205565,966m/data=!3m2!1e3!4b1!4m6!3m5!1s0x94b975119c343457:0x55d599f66e5eab75!8m2!3d-21.2079969!4d-47.8205565!16s%2Fg%2F11hz1ft2tl?entry=ttu&g_ep=EgoyMDI2MDUyNy4wIKXMDSoASAFQAw%3D%3D"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-primary text-white px-8 py-3 rounded-sm font-bold hover:bg-opacity-90 transition-all"
+            >
+              Ver todos os Feedbacks
+            </a>
+          </div>
         </section>
 
 
